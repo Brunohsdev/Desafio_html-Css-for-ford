@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     margin: 0 1em;
+    padding: 0;
 }
 .container-imagem{
     padding: 1em;
