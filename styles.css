@@ -1,0 +1,81 @@
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+  /* Cores principais da Ford */
+  --azul-ford: #1b357e;
+  --azul-claro-ford: #1351d8;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza-claro: #f2f2f2;
+
+  /* Extras para hover ou destaques */
+  --azul-hover: #0f3da1;
+  --azul-escuro: #10264e;
+  /* background-color: ue vai ser usada em todos os htmls */
+  --fonte-principal: 'Lora', serif;
+}
+*{
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100%;
+    min-width: 100%;
+}
+img, section, div {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+main {
+  flex: 1; /* Faz o main ocupar todo o espaço restante entre header e footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza conteúdo verticalmente */
+  align-items: center;     /* Centraliza horizontalmente */
+}
+
+h1{
+  font-size: 24px;
+}
+p, li{
+  font-size: 18px;
+}
+.principal{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.imagem__principal {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+/* imagem do main principal */
+.imagem-da-main-principal {
+  padding: 0;
+  width: auto;
+  height: auto;
+  min-height: 20px;
+  object-fit: cover;
+  border-radius: 1rem;
+  border-radius: 10px;
+}
