@@ -1,3 +1,8 @@
+.modelos{
+    width: 100%;
+    height: auto;
+}
+
 .lancamento{
     display: flex;
     width: 100%;
@@ -5,7 +10,9 @@
     align-items: flex-start;
     text-align: center;
     flex-direction: column;
+    gap: 15%;
 }
+
 .link-do-video{
         width: 100%;
         height: 200px; /* ou até 250px, dependendo do conteúdo */
@@ -24,8 +31,10 @@ strong{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; 
+    padding: 0;
 }
 .tabela {
     min-width: 800px;
@@ -35,10 +44,16 @@ th, td {
     padding: 12px;
     text-align: center;
 }
+.conteudo__tabela{
+    height: 100%;
+    width: auto;
+    padding: 0 2rem;
+}
 .conteudo__tabela span{
     color: var(--azul-claro-ford);
     font-weight: 600;
     font-size: larger;
+
 }
 .conteudo__tabela p{
     font-weight: 600;
@@ -58,5 +73,27 @@ th, td {
 .lancamento button:hover{
     background-color: var(--azul-hover);
 }
+.imagem-e-descricao{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.div-informacoes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.div-informacoes img{
+    height: auto;
+    width: 25%;
+    padding: 0;
+}
 
+.car{
+    height: 10rem;
+    width: 100%;
+    padding: 0;
+}
 
