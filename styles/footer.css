@@ -1,21 +1,69 @@
+footer{
+    background-color: var(--azul-ford);
+}
 .final{
     display: flex;
-    width: 100%;
+    flex-direction: column;
     align-items: center;
-    background-color: var(--azul-ford);
-    justify-content:space-between;
-    padding: 1rem;
-    gap: 15%;
+    width: 100%;
+    justify-content:space-around;
+    padding: 0;
+    gap: 5%;
 }
 .footer__links__rede__social{
-    display: inline-flex;
-    width: 100%;
+    display: flex;
+    width: auto;
+    padding: 0;
+    align-items: center;
+}
+.texto-rede-social{
+    color: var(--branco);
+    font-weight: 600;
+    margin: 0 1rem;
+    font-size: 15px;
+}
+.imagens__links{
+    height: 3rem;
+    width: auto;
+    padding: 0.4rem 0.6rem ;
+}
+
+.copyrigth{
     padding: 0;
 }
-.logo__final{
-    padding: 0;
+.texto-copyright{
+    text-align: center;
+    font-weight: bold;
+    color: var(--branco);
+    font-size: 1rem;
     margin: 0 1rem;
+}
+.logo__final{
+    display: flex;
+    padding: 0;
+    margin: 0.5rem;
 }
 .imagem-logo-do-footer{
     padding: 0;
+    justify-content: flex-start;
+}
+@media (min-width: 1020px){
+    .final{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer__links__rede__social{
+        width: auto;
+        padding: 0 1rem;
+    }
+    .footer-copyrigth-logo{
+        justify-content: space-between;
+        width: 50%;
+    }
+    .copyright{
+        display: flex;
+        flex: 1;
+        padding: 0 1rem; 
+    }
 }

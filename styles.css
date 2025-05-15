@@ -12,9 +12,10 @@
   /* Extras para hover ou destaques */
   --azul-hover: #0f3da1;
   --azul-escuro: #10264e;
-  /* background-color: ue vai ser usada em todos os htmls */
+  /* background-color: que vai ser usada em todos os htmls */
   --fonte-principal: 'Lora', serif;
   --cor-da-font: #333333;
+  --cor-do-footer-fim: #f4f4f4;
 }
 *{
   box-sizing: border-box;
