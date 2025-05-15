@@ -62,3 +62,33 @@
 .container__botao{
     display: none;
 }
+
+@media (min-width: 640px) {
+  
+  .lista-menu {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: auto;
+    flex: 1;
+  }
+.menu_ancoras{
+    flex: 1;
+}
+ 
+  .cabecalho__menu-hambuguer,
+  .container__botao,
+  .menu_hambuguer {
+    display: none;
+  }
+
+  .lista-menu_titulo,
+  .lista-menu__link {
+    padding: 0.5rem 1rem;
+   
+    font-size: 1rem;
+  }
+}

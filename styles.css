@@ -23,6 +23,7 @@
 }
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -52,38 +53,4 @@ main {
 
 h1{
   font-size: 24px;
-}
-#descricao-imagem-principal, 
-.lista-menu_titulo{
-  font-size: 18px;
-}
-.principal{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
-
-}
-.principal a{
-  color: var(--azul-claro-ford);
-  text-decoration: none;
-}
-.imagem__principal {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-/* imagem do main principal */
-.imagem-da-main-principal {
-  padding: 0;
-  width: auto;
-  height: auto;
-  min-height: 20px;
-  object-fit: cover;
-  border-radius: 1rem;
-  border-radius: 10px;
 }

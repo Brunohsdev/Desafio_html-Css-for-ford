@@ -1,0 +1,36 @@
+#descricao-imagem-principal, 
+.lista-menu_titulo{
+  font-size: 18px;
+}
+.principal{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1%;
+
+}
+.principal a{
+  color: var(--azul-claro-ford);
+  text-decoration: none;
+}
+.imagem__principal {
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+/* imagem do main principal */
+.imagem-da-main-principal {
+  padding: 0;
+  width: auto;
+  height: auto;
+  min-height: 20px;
+  object-fit: cover;
+  border-radius: 1rem;
+  border-radius: 10px;
+}
+

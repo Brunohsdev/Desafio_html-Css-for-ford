@@ -1,3 +1,11 @@
+.imagem-e-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   align-items: center;
+}
+
 .form-container{
     background: #fff;
     padding: 30px;
@@ -5,6 +13,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 500px;
+    
    
 }
 .form-container p{
@@ -40,4 +49,24 @@
 }
 .formulario button:hover{
     background-color: var(--azul-hover);
+}
+.imagem-contato{
+    width: 100%;
+}
+@media(min-width: 850px){
+    .imagem-e-formulario{
+        flex-direction: row;
+        text-align: center;
+        
+        
+    }
+    #imagem-storm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .form-container{
+    width: 50%;
+    }
 }
