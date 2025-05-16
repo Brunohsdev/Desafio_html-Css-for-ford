@@ -1,7 +1,7 @@
 <h1> Desafio Html e Css </h1>
 <h3>Neste projeto criei 3 páginas de Markdown e estilização</h3>
 <hr>
-<h3>O que foi pedido:</h3>
+<h3>O que foi pedido e entregue:</h3>
 <p>
 Passo 1: inserir a logomarca no cabeçalho (header) do site.
 <br>
